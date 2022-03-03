@@ -1,0 +1,44 @@
+.component {
+  margin: 100px auto 0 auto;
+}
+
+.text {
+  margin: 0 auto 100px auto;
+  max-width: 400px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+  display: block;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  color: rgba(0, 0, 0, 0.85);
+  max-width: 200px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 50px auto 0 auto;
+  justify-content: center;
+  padding: 30px 60px;
+  line-height: 1.25;
+  transition: all 250ms;
+  &:hover, &:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(-1px);
+  }
+  &:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+  }
+}
